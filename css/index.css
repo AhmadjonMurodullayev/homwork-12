@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "DM Sans"
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 110px;
+    position: fixed;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul a:hover {
+    
+    background-color:yellowgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: red;
+
+}
+
+nav ul a {
+    color: 
+    #3D3D3F;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+.nav-button button{
+        width: 118px;
+        height: 42px;
+        border-radius: 5px;
+        color: #fff;
+        background-color:#f3602ff4;
+        border: none;
+        cursor: pointer;
+}
+
+main{
+    background-color: aliceblue;
+}
+
+
+.logo-blog{
+    display: flex;
+    width: 85%;
+    height: 70vh;
+    /* border: 2px solid ; */
+    /* display: flex; */
+    margin: 80px auto;
+}
+.logo-text{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid; */
+
+}
+.logo-text h1{
+    width: 412px;
+    height: 160px;
+    font-size: 52px;
+    margin: 50px 0px;
+}
+.logo-text p{
+    width: 536px;
+    height: 59px;
+    font-size: 18px;
+}
+.logo-text button{
+    width: 219px;
+    height: 53px;
+    background-color: #F35F2F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 40px 0px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.service-box{
+    width: 85%;
+    height: 421px;
+    /* border: 2px solid; */
+    margin: 0 auto;
+}
+.service-logo{
+    width: 100%;
+    height: 12vh;
+    /* border: 2px solid; */
+    text-align: center;
+    font-size: 30px;
+}
+.service-text{
+    width: 100%;
+    height: 314px ;
+     border: 2px solid #EBEBEB;
+     display: flex; 
+     padding: 10px 0px;
+     border-radius: 10px;
+}
+.service-itmss{
+    width: 35%;
+    height: 100%;
+}
+.service-itms{
+      width: 35%;
+      height: 100%;
+      /* border: 2px solid; */
+      border-right: 2px solid #EBEBEB;
+      
+}
+.service-icon{
+    width: 230px;
+    height: 210px;
+    margin: 50px auto;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 2px solid ; */
+   
+}
+.service-icon h2{
+        width: 100px;
+        height: 40px;
+        font-size: 25px;
+        text-align: center;
+        /* border: 2px solid; */
+        margin: 5px 55px;
+}
+.service-icon p{
+    font-size:20px ;
+    color: 
+    #3D3D3F;
+}
+.service2-box{
+    width: 85%;
+    height: 60%;
+    /* border: 2px solid; */
+    margin: 25px auto;
+    background-color:
+    /* #F9FAFF; */
+}
+.service2-box-itms{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+    display: flex;
+
+    gap: 45px;
+}
+.secvice2-wrapper{
+    width: 396px;
+    height: 100%;
+    /* border: 2px solid; */
+}
+.secvice2-blog{
+    width: 100%;
+    height: 302px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 130px;
+    text-align: center;
+    background-color: #fff;
+}
+.secvice2-dumoloq{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: -45px auto;
+    padding: 20px 0px;
+}
+.secvice2-blog-text{
+    margin: 60px auto;
+
+}
+.secvice2-blog-text h3{
+    padding: 10px 40px;
+    font-size: 30px;
+}
+.secvice2-blog-text p{
+    width: 270px;
+    height: 81px;
+    font-size: 16px;
+    margin: 5px 45px;
+}
+.secvice2-dumoloqi{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color:orange;
+    margin: -45px auto;
+    padding: 20px 0px;
+
+}
+.portfolo-pages{
+    width: 85%;
+    height: 100%;
+    /* border: 2px solid; */
+    margin:  0px auto;
+}
+.portfolo-pages-logo{
+    text-align: center;
+    font-size: 30px;
+}
+.partfolo-pages-text{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+    margin:20px 0px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.partfolo-box{
+    width: 393px;
+    height: 367px;
+    /* border: 2px solid; */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    
+}
+.partfolo-box p{
+     padding: 20px 0px;
+}
+.partfolo-pages-text button{
+    width: 242px;
+    height: 53px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #F35F2F;
+    margin: 20px 520px;
+    cursor: pointer;
+}
